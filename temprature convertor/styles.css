@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.head{
+    color:darksalmon;
+
+    font-style: inherit;
+    margin-top: 100px;
+    
+}
+.lab1{
+    color:red;
+    font-style:inherit;
+    font-weight: 900;
+    font-size: x-large;
+}
+#temp{
+    border-radius: 20px;
+    border-color: azure;
+    background-color: lightgray;
+    text-emphasis-color: black;
+    margin-left: 20px;
+}
+#choose1{
+    border-radius: 20px;
+    border-color:black;
+    background-color: lightgray;
+    margin-left: 20px;
+    color:blue;
+    cursor: pointer;
+}
+#choose{
+    border-radius: 20px;
+    border-color: black;
+    background-color: lightgrey;
+    margin-left: 20px;
+    color:blue;
+    cursor: pointer;
+    
+}
+#btn2{
+    border-radius: 20px;
+    border-color: blue;
+    background-color: lightcoral;
+    padding: 20px;
+    font-weight: 800;
+    
+}
+#result{
+    color:rgb(46, 207, 46);
+    font-size: xx-large;
+
+}

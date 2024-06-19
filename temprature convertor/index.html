@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ho+np+jG3xE1pE5cH5a2k7DtKXh1e3R5n5xM6V7vxz2XQ2zX5Q9WzlfifgM7HXxT" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+    <h1 CLASS="head">TEMPRATURE SCALE</h1>
+    <label for="temp" class="lab1">Enter Temperature:</label>
+    <input type="number" id="temp" name="temp">
+<br>
+    <label for="choose" class="lab1">Convert from:</label>
+    <select id="choose" name="choose">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select>
+    <br>
+
+    <label for="choose1" class="lab1">Convert to:</label>
+    <select id="choose1" name="choose1">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select>
+    <br>
+    </div>
+<div class="col-md-6 mb-4">
+    <button id="btn2" onclick="perform()">CONVERT</button>
+
+    <p id="result"></p>
+<img src="https://tse2.mm.bing.net/th?id=OIP.RJ_J40b5WCSjONq31M_IZAHaHa&pid=Api&P=0&h=220" class="img h-75 w-75">
+</div>
+        </div>
+    </div> 
+      <script src="converter.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha384-eOHBOcoHPlcLvvLw0wTTv8KxRFd07L6Iwo/ckTxsRGU3De1OZV/AI7d2Gkgrlb8C" crossorigin="anonymous"></script>
+
+</body>
+</html>

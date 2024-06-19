@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    
+}
+.first-half{
+    color:burlywood;
+
+}
+.second-half{
+    color:lightgray;
+}
+h1{
+    background-color: olive;
+}
+.form{
+    color:rgb(222, 20, 57);
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+margin-right: 20px;
+
+
+}
+#temp{
+    border-radius: 20px;
+    border-color:lightgray;
+    border-style: inset;
+    background-color: lightgray;
+    
+    
+
+}
+.select{
+    font-style: oblique;
+    color: red;
+    font-weight: 900;
+}
+.choose{
+    border-radius: 20px;
+    padding:10px;
+    background-color: lightgray;
+    color:red;
+cursor: pointer;
+border-color: lightgray;
+font-style: inherit;
+margin-left:20px;
+}
+.btn2{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: lightgray;
+    color:red;
+    border-color: lightgray;
+}
+.choose1{
+    color:red;
+    font-size: large;
+    font-weight: 900;
+    font-style: inherit;
+}
